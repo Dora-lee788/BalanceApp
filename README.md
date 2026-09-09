@@ -10,5 +10,5 @@ operator true — баланс положительный (Amount > 0); operator
 
 Код Balance.cs
 ![код класса Balance](BalanceApp/Screenshot/Code2.png)
-Код Program.cs
+Код Program.cs + Результат вывода
 ![код Program и результат](BalanceApp/Screenshot/BalanceCode+Results.png)
