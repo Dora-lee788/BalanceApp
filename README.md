@@ -1,12 +1,13 @@
-Задание «Контрольная точка №4 — перегрузка операторов отношения и true/false»
+Р—Р°РґР°РЅРёРµ В«РљРѕРЅС‚СЂРѕР»СЊРЅР°СЏ С‚РѕС‡РєР° в„–4 вЂ” РїРµСЂРµРіСЂСѓР·РєР° РѕРїРµСЂР°С‚РѕСЂРѕРІ РѕС‚РЅРѕС€РµРЅРёСЏ Рё true/falseВ»
 
-Вариант 1. Balance (баланс счёта)
-Класс Balance хранит сумму на счёте (decimal Amount).
-Конструктор Balance(decimal amount).
-operator ==, operator != — сравнение по значению Amount. Переопределите Equals и GetHashCode.
-operator <, operator >, operator <=, operator >= — сравнение по значению Amount.
-operator true — баланс положительный (Amount > 0); operator false — баланс не положительный.
-Переопределите ToString(), например: "125,50 руб.".
+Р’Р°СЂРёР°РЅС‚ 1. Balance (Р±Р°Р»Р°РЅСЃ СЃС‡С‘С‚Р°)
+РљР»Р°СЃСЃ Balance С…СЂР°РЅРёС‚ СЃСѓРјРјСѓ РЅР° СЃС‡С‘С‚Рµ (decimal Amount).
+РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ Balance(decimal amount).
+operator ==, operator != вЂ” СЃСЂР°РІРЅРµРЅРёРµ РїРѕ Р·РЅР°С‡РµРЅРёСЋ Amount. РџРµСЂРµРѕРїСЂРµРґРµР»РёС‚Рµ Equals Рё GetHashCode.
+operator <, operator >, operator <=, operator >= вЂ” СЃСЂР°РІРЅРµРЅРёРµ РїРѕ Р·РЅР°С‡РµРЅРёСЋ Amount.
+operator true вЂ” Р±Р°Р»Р°РЅСЃ РїРѕР»РѕР¶РёС‚РµР»СЊРЅС‹Р№ (Amount > 0); operator false вЂ” Р±Р°Р»Р°РЅСЃ РЅРµ РїРѕР»РѕР¶РёС‚РµР»СЊРЅС‹Р№.
+РџРµСЂРµРѕРїСЂРµРґРµР»РёС‚Рµ ToString(), РЅР°РїСЂРёРјРµСЂ: "125,50 СЂСѓР±.".
 
-![код класса Balance](Code2.png)
-![код Program и результат](BalanceCode+Results.png)
+![РєРѕРґ РєР»Р°СЃСЃР° Balance](ScreenShot/Code2.png)
+
+![РєРѕРґ Program Рё СЂРµР·СѓР»СЊС‚Р°С‚](ScreenShot/BalanceCode+Results.png)
