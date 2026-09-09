@@ -8,6 +8,6 @@ operator <, operator >, operator <=, operator >= — сравнение по з�
 operator true — баланс положительный (Amount > 0); operator false — баланс не положительный.
 Переопределите ToString(), например: "125,50 руб.".
 
-![код класса Balance](Screenshot/Code2.png)
+![код класса Balance](BalanceApp/Screenshot/Code2.png)
 
-![код Program и результат](Screenshot/BalanceCode+Results.png)
+![код Program и результат](BalanceApp/Screenshot/BalanceCode+Results.png)
